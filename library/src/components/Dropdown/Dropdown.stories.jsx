@@ -5,7 +5,7 @@ import Dropdown from './Dropdown';
 
 
 export default {
-  title: 'Example/Dropdown',
+  title: 'Components/Dropdown',
   component: Dropdown,
   argTypes: {
     backgroundColor: { control: 'color' },

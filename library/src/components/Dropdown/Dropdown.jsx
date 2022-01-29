@@ -1,5 +1,5 @@
 import {useState} from "react";
-import DropdownComponent from "../modules/Dropdown";
+import DropdownComponent from "./index";
 
 function Dropdown({ backgroundColor, options, size}) {
   const [selected, setSelected] = useState("Choose One");

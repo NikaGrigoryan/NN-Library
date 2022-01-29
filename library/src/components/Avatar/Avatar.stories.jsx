@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Avatar from '../modules/Avatar';
+import Avatar from './index';
 
 
 
 export default {
-  title: 'Example/Avatar',
+  title: 'Components/Avatar',
   component: Avatar,
   argTypes: {
     backgroundColor: { control: 'color' },

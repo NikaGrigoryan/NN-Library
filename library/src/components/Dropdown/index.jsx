@@ -1,8 +1,8 @@
 import {useState} from "react";
 
-import "./styles.css";
+import "./style.css";
 
-function Dropdown ({ value, onSelected, backgroundColor, size = "large", options = [] }) {
+function DropdownComponent ({ value, onSelected, backgroundColor, size = "large", options = [] }) {
   const  [isActive, setIsActive]= useState(false);
 
   const handleIsActive = () => {
@@ -36,4 +36,4 @@ function Dropdown ({ value, onSelected, backgroundColor, size = "large", options
 
 
 
-export default Dropdown
+export default DropdownComponent
